@@ -36,12 +36,11 @@
 }
 
 .characterWrapper {
-  width: 25%;
   min-height: 500px;
   position: fixed;
-  top: 50%;
-  right: 10%;
-  transform: translateY(-50%);
+  top: 15%;
+  left: 60%;
+  bottom: 5%;
 }
 
 .controlColumn {
