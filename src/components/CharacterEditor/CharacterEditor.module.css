@@ -3,10 +3,22 @@
   padding-bottom: 64px;
 }
 
+.characterEditor::after {
+  content: '';
+  width: 100%;
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: hsl(195deg, 20%, 86%);
+  z-index: -1;
+}
+
 .maxWidthWrapper {
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +36,14 @@
 }
 
 .characterWrapper {
+  width: 25%;
+  min-height: 500px;
+  position: fixed;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
 }
 
 .controlColumn {
+  width: 50%;
 }
